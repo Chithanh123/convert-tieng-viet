@@ -13,7 +13,6 @@ ________________________________________________
 - Download and require `tieqviet.js` or `tieqviet.min.js`
 
 ### Usage
-```
+```js
 build('something text')
-
 ```

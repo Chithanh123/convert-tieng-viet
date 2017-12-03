@@ -17,7 +17,7 @@ var match = [
 ];
 
 function capitalize(a) {
-    return a.replace(new RegExp('\b\w', 'g'), function(i) { return i.toUpperCase() })
+    return a.replace(/\w\S*/g, function(txt){return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();});
 };
 
 function convert(val, match) {
